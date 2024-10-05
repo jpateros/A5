@@ -7,9 +7,9 @@ figure {
   background: url($logo-image) no-repeat 0 50px;
 }
 
-// Mixin 2 for generic box layout of nav menu
 //Create a Sass nested rule for the navigation menu and child elements. 
 nav {
+    // Mixin 2 for generic box layout of nav menu
   @include box-layout(540px, 190px);
 
   ul {

@@ -1,13 +1,19 @@
 // Add Sass variables for the all the colors, image paths, and web fonts.
-$font-family: 'Roboto', sans-serif;
-$base-font-size: 1em;
-$base-line-height: 2em;
+
+//colors
 $body-bg-color: #FFF;
-$body-bg-image: '../images/bg.gif';
-$logo-image: '../images/logo.png';
-$social-media-image: '../images/social-media.png';
 $primary-color: #E65C43;
 $secondary-color: #666;
 $grey-color: #F5F6F6;
 $footer-bg-color: #30353D;
 $headline-bg-color: #F25C43;
+
+//image paths
+$body-bg-image: '../images/bg.gif';
+$logo-image: '../images/logo.png';
+$social-media-image: '../images/social-media.png';
+
+//web fonts
+$font-family: 'Roboto', sans-serif;
+$base-font-size: 1em;
+$base-line-height: 2em;

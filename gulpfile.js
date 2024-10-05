@@ -1,3 +1,4 @@
+//Install and configute Gulp for your assignment
 var {src, dest, watch} = require('gulp');
 var sass = require('gulp-sass')(require('sass'));
 
