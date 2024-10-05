@@ -10,27 +10,20 @@ header {
       max-width: 100%;
       height: auto;
     }
-  
+    //mixin usage
     h1 {
-      color: $primary-color;
-      font-weight: 100;
-      font-size: 4em;
-      line-height: 0;
+      @include text-style(4em, $primary-color, center, 0, 100);
     }
-  
+    
+    //mixin usage
     h2 {
-      color: $body-bg-color;
-      font-weight: 900;
-      font-size: 2.5em;
-      line-height: 0;
+      @include text-style(2.5em, $body-bg-color, center, 0, 900);
       margin-bottom: 70px;
     }
   
+    //mixin usage
     h3 {
-      color: $secondary-color;
-      font-weight: 400;
-      font-size: 2em;
-      line-height: 0;
+      @include text-style(2em, $secondary-color, center, 0, 400);
       margin-bottom: 50px;
     }
   }

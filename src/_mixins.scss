@@ -1,5 +1,5 @@
 // Required Mixins
-@mixin box-layout($width: 100%, $height: auto, $margin: 0, $padding: 0) {
+@mixin box-layout($width: 100px, $height: 100px, $margin: 0, $padding: 0) {
     width: $width;
     height: $height;
     margin: $margin;
@@ -8,3 +8,29 @@
     display: block;
   }
   
+  @mixin text-style($font-size: 2em, $color: gold, $align: left, $line-height: normal, $font-weight: 0) {
+    font-size: $font-size;
+    color: $color;
+    text-align: $align;
+    line-height: $line-height;
+    font-weight: $font-weight;
+  }
+  
+  @mixin content-layout($width: 100%, $height: auto, $margin: 0 auto, $text-align: left) {
+    width: $width;
+    height: $height;
+    margin: $margin;
+    text-align: $text-align;
+  }
+
+  @mixin text-style2($color: gold, $font-size: 1em, $font-weight: normal, $padding-top: 0) {
+    color: $color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    padding-top: $padding-top;
+  }
+  
+  @mixin spacing($margin-bottom: 0, $margin-right: 0) {
+    margin-bottom: $margin-bottom;
+    margin-right: $margin-right;
+  }
