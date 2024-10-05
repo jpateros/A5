@@ -1,0 +1,10 @@
+// Required Mixins
+@mixin box-layout($width: 100%, $height: auto, $margin: 0, $padding: 0) {
+    width: $width;
+    height: $height;
+    margin: $margin;
+    padding: $padding;
+    float: left;
+    display: block;
+  }
+  

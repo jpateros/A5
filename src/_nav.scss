@@ -1,18 +1,14 @@
 // Navigation
+@import "mixins";
+
+//Mixin 1 for geenric box for logo image!
 figure {
-    width: 400px;
-    height: 190px;
+    @include box-layout(400px, 190px, 0, 0);
     background: url($logo-image) no-repeat 0 50px;
-    float: left;
-    display: block;
-    margin: 0;
   }
-  
+  //Mixin 2 for geenric box layout of nav menu
   nav {
-    width: 540px;
-    height: 190px;
-    float: left;
-    text-align: right;
+    @include box-layout(540px, 190px);
   }
   
   nav ul {
