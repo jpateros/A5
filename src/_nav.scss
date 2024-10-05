@@ -1,33 +1,35 @@
 // Navigation
 @import "mixins";
 
-//Mixin 1 for geenric box for logo image!
+// Mixin 1 for generic box for logo image
 figure {
-    @include box-layout(400px, 190px, 0, 0);
-    background: url($logo-image) no-repeat 0 50px;
-  }
-  //Mixin 2 for geenric box layout of nav menu
-  nav {
-    @include box-layout(540px, 190px);
-  }
-  
-  nav ul {
+  @include box-layout(400px, 190px, 0, 0);
+  background: url($logo-image) no-repeat 0 50px;
+}
+
+// Mixin 2 for generic box layout of nav menu
+//Create a Sass nested rule for the navigation menu and child elements. 
+nav {
+  @include box-layout(540px, 190px);
+
+  ul {
     list-style-type: none;
     margin-top: 95px;
-  }
-  
-  nav ul li {
-    display: inline;
-    font-size: 0.8em;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: $primary-color;
-    text-decoration: none;
-    letter-spacing: -0.01em;
-  
-    &:hover {
-      color: $body-bg-color;
+
+    li {
+      display: inline;
+      font-size: 0.8em;
+      margin-right: 10px;
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        letter-spacing: -0.01em;
+
+        &:hover {
+          color: $body-bg-color;
+        }
+      }
     }
   }
+}
