@@ -34,3 +34,16 @@
     margin-bottom: $margin-bottom;
     margin-right: $margin-right;
   }
+
+  //Create a mixin similar to the break() mixin 
+  @mixin media-query($args...) {
+    @if length($args) == 1 {
+        @media (max-width: nth($args, 1)) {
+            @content;
+        }
+    } @else if length($args) == 2 {
+        @media (min-width: nth($args, 1)) and (max-width: nth($args, 2)) {
+            @content;
+        }
+    }
+}

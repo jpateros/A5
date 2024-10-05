@@ -173,7 +173,7 @@ footer .social-media div.four {
   background: url("../images/social-media.png") -114px 0;
 }
 
-@media screen and (max-width: 959px) {
+@media (max-width: 959px) {
   main {
     width: 768px;
   }
@@ -211,7 +211,7 @@ footer .social-media div.four {
     margin: 0 2%;
   }
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   main {
     width: 460px;
   }
@@ -242,7 +242,7 @@ footer .social-media div.four {
     float: none;
   }
 }
-@media screen and (max-width: 459px) {
+@media (max-width: 459px) {
   main {
     width: 300px;
   }
