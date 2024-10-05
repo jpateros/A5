@@ -16,8 +16,9 @@
         @include text-style($secondary-color, 2em, 400);
     }
   
+    //Use a math operation somewhere in your code.
     #products {
-      width: 460px;
+      width: (940px / 2) - 20px;
       float: left;
   
       img {
