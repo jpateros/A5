@@ -1,0 +1,36 @@
+
+// Header
+header {
+    width: inherit;
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    h1 {
+      color: $primary-color;
+      font-weight: 100;
+      font-size: 4em;
+      line-height: 0;
+    }
+  
+    h2 {
+      color: $body-bg-color;
+      font-weight: 900;
+      font-size: 2.5em;
+      line-height: 0;
+      margin-bottom: 70px;
+    }
+  
+    h3 {
+      color: $secondary-color;
+      font-weight: 400;
+      font-size: 2em;
+      line-height: 0;
+      margin-bottom: 50px;
+    }
+  }

@@ -1,0 +1,14 @@
+// Basic Styles
+body {
+  font-family: $font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  background: url($body-bg-image) $body-bg-color repeat-x;
+  margin: 0;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
